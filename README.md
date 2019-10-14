@@ -1,8 +1,8 @@
-##Excel Parser
+## Excel Parser
 
 Parse excel `.xlsx` files into arrays and json objects and write them to a file.
 
-####Current Features
+#### Current Features
 
 * Reads `.xlsx` files
 * Writes `.json` files
@@ -10,7 +10,7 @@ Parse excel `.xlsx` files into arrays and json objects and write them to a file.
 * Catches and notifies if an error if `.xlsx` file doesn't exist or is invalid
 * Catches and notifies if requested deleted rows or columns doesn't exist in the `.xlsx` file but saves the file anyways
 
-####Future Features
+#### Future Features
 
 * Ways to covert into an object in addition to an array
 * Choose write file type
@@ -18,16 +18,16 @@ Parse excel `.xlsx` files into arrays and json objects and write them to a file.
 * More specific row and column deleting
 
 
-###How it works
+### How it works
 
-####Arguments
+#### Arguments
 
 ```
 $ node app (root-filename) (row-deleted) (column-deleted)
 
 ```
 
-####Examples
+#### Examples
 
 Reads `sample.xlsx` file by default and write it to `sample.json`
 
